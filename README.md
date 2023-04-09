@@ -7,7 +7,8 @@
   src="/src/img/ss.png"
   alt="Alt text"
   title="Optional title"
-  style=" margin: 0 auto; width: 500px; height:450px">
+  style=" margin: 0 auto; width: 800px; height:450px; display:flex; justify-content: center;
+">
 
   <div>
 # Getting Started with Create React App
