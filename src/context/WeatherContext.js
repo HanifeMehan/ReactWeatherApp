@@ -22,7 +22,6 @@ export const WeatherProvider = ({children}) => {
     }
     },[city])
     
-    
     const values = {
         city,
         setCity,
@@ -30,7 +29,6 @@ export const WeatherProvider = ({children}) => {
         setWeatherInfo,
         
     }
-
 
     return <WeatherContext.Provider value={values}>{children}</WeatherContext.Provider>
 }
